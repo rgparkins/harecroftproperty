@@ -1,0 +1,30 @@
+{
+  "name": "harecroftproperty.co.uk",
+  "version": "1.0.0",
+  "description": "Property site",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "harecroftproperty"
+  },
+  "keywords": [
+    "property",
+    "search"
+  ],
+  "author": "rgparkins",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "dependencies": {
+    "co-express": "^2.0.0",
+    "co-request": "^1.0.0",
+    "express": "^4.16.2",
+    "express-async-handler": "^1.0.2",
+    "mongoose": "^4.13.9"
+  }
+}
