@@ -8,7 +8,7 @@ console.log(config);
 exports.addProduct = async function(payload) {
     let new_task = new product(payload);
 
-    await new_task.save();
+    return await new_task.save();
 };
 
 // exports.list_all_properties = async function(params) {

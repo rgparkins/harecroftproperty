@@ -7,6 +7,9 @@ module.exports = function(app) {
             const result = await products.addProduct(req.Body);
             res.json(result);
         } catch(err) {
+            //res.body(err);
+            res.status(400).send({'error': { error: err }});
+
             next(err);
         }
     });
