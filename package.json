@@ -4,7 +4,7 @@
   "description": "Property site",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
+    "test": "mocha --recursive --timeout 10000",
     "start": "nodemon server.js"
   },
   "repository": {
@@ -18,13 +18,18 @@
   "author": "rgparkins",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.14.11"
+    "chai-http": "^3.0.0",
+    "mocha": "^4.1.0",
+    "nock": "^9.1.6",
+    "nodemon": "^1.14.11",
+    "should": "^13.2.1",
+    "supertest": "^3.0.0"
   },
   "dependencies": {
-    "co-express": "^2.0.0",
-    "co-request": "^1.0.0",
+    "config": "^1.29.2",
     "express": "^4.16.2",
-    "express-async-handler": "^1.0.2",
-    "mongoose": "^4.13.9"
+    "mongoose": "^4.13.9",
+    "node-mongoose-validator": "^1.2.0",
+    "query-string": "^5.0.1"
   }
 }
