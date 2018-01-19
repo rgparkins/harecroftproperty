@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5be1970-bd81-4f36-b437-2f3dd845e5c4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/retrieving.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/searching.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/updating.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/productController.js" afterPath="$PROJECT_DIR$/api/controllers/productController.js" />
-      <change beforePath="$PROJECT_DIR$/api/models/productModel.js" afterPath="$PROJECT_DIR$/api/models/productModel.js" />
       <change beforePath="$PROJECT_DIR$/api/routes/productRoutes.js" afterPath="$PROJECT_DIR$/api/routes/productRoutes.js" />
-      <change beforePath="$PROJECT_DIR$/test/adding.js" afterPath="$PROJECT_DIR$/test/adding.js" />
+      <change beforePath="$PROJECT_DIR$/test/retrieving.js" afterPath="$PROJECT_DIR$/test/retrieving.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -96,21 +90,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productRoutes.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="productRoutes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/routes/productRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="375">
+              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="retrieving.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="retrieving.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/retrieving.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            <state relative-caret-position="593">
+              <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -141,6 +135,7 @@
       <find>api/</find>
       <find>-</find>
       <find>title</find>
+      <find>console.lo</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -169,8 +164,8 @@
         <option value="$PROJECT_DIR$/test/searching.js" />
         <option value="$PROJECT_DIR$/test/adding.js" />
         <option value="$PROJECT_DIR$/api/controllers/productController.js" />
-        <option value="$PROJECT_DIR$/api/routes/productRoutes.js" />
         <option value="$PROJECT_DIR$/test/retrieving.js" />
+        <option value="$PROJECT_DIR$/api/routes/productRoutes.js" />
       </list>
     </option>
   </component>
@@ -306,12 +301,12 @@
       <option name="presentableId" value="Default" />
       <updated>1515854171079</updated>
       <workItem from="1515854172290" duration="15346000" />
-      <workItem from="1515944590846" duration="17795000" />
+      <workItem from="1515944590846" duration="18369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33141000" />
+    <option name="totallyTimeSpent" value="33715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="48" width="1389" height="877" extended-state="0" />
@@ -488,18 +483,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/productRoutes.js">
+    <entry file="file://$PROJECT_DIR$/test/retrieving.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="593">
+          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/retrieving.js">
+    <entry file="file://$PROJECT_DIR$/api/routes/productRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        <state relative-caret-position="375">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding />
         </state>
       </provider>

@@ -20,7 +20,11 @@ module.exports = function(app) {
         try {
             const result = await products.getProduct(req.params.reference);
 
-            res.status(200).json(result);
+            if (result) {
+                res.status(200).json(result);
+            } else {
+                res.status(404).json({});
+            }
         } catch(err) {
             res.status(400).send({'error': { error: err }});
 

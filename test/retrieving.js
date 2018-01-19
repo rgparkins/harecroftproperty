@@ -8,14 +8,14 @@ let request = require('supertest')(server);
 let should = require('should');
 
 
-describe('Fetching a single product', () => {
+describe('fetching a single product', () => {
     beforeEach((done) => {
         Product.remove({}, (err) => {
             done();
         });
     });
 
-    describe('Given a product in the database', () => {
+    describe('given a product in the database', () => {
         beforeEach((done) => {
             var p = new Product({
                 reference : "RGP12367890",
@@ -31,7 +31,7 @@ describe('Fetching a single product', () => {
             });
         });
 
-        it('It can be returned by reference', (done) => {
+        it('it can be returned by reference', (done) => {
             request
                 .get('/products/RGP12367890')
                 .set('content-type', 'application/json')
@@ -40,9 +40,26 @@ describe('Fetching a single product', () => {
                     res.body.reference.should.eql("RGP12367890");
                     res.body.title.should.startWith("This is mine and only mine");
                     res.body.description.should.eql("hello");
-                    console.log(res.body.reference);
                     done();
                 });
         });
+    });
+});
+
+describe('fetching a non existent product', () => {
+    beforeEach((done) => {
+        Product.remove({}, (err) => {
+            done();
+        });
+    });
+
+    it('does not find the product', (done) => {
+        request
+            .get('/products/unknown')
+            .set('content-type', 'application/json')
+            .expect(404)
+            .end(function(err, res) {
+                done();
+            });
     });
 });
