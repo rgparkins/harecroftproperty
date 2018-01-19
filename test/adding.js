@@ -14,7 +14,7 @@ describe('Adding a valid product', () => {
         });
     });
 
-    describe('add a single product', () => {
+    describe('Given a system', () => {
         it('it should return the product', (done) => {
             let payLoad = { reference : "RGP123678", title : "This is mine and only mine" + new Date().getTime()};
 
@@ -22,7 +22,7 @@ describe('Adding a valid product', () => {
                 .post('/products')
                 .set('content-type', 'application/json')
                 .send(payLoad)
-                .expect(200)
+                .expect(201)
                 .expect('Location', "/products/RGP123678", done);
         });
     });

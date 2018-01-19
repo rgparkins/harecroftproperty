@@ -5,7 +5,8 @@ var Schema = mongoose.Schema;
 var ProductSchema = new Schema({
     reference: {
         type: String,
-        required: "Reference is required"
+        required: "Reference is required",
+        unique : true
     },
     title: {
         type: String,
