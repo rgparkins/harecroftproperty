@@ -26,7 +26,7 @@
     "supertest": "^3.0.0"
   },
   "dependencies": {
-    "config": "^1.29.2",
+    "config": "^3.3.8",
     "express": "^4.16.2",
     "mongoose": "^5.7.5",
     "node-mongoose-validator": "^1.2.0",
