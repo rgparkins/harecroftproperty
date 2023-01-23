@@ -18,7 +18,7 @@
   "author": "rgparkins",
   "license": "ISC",
   "devDependencies": {
-    "chai-http": "^3.0.0",
+    "chai-http": "^4.3.0",
     "mocha": "^4.1.0",
     "nock": "^9.1.6",
     "nodemon": "^1.14.11",
